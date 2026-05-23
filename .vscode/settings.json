@@ -1,0 +1,17 @@
+{
+  // --- Formatage automatique ---
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,         // Formate le fichier à chaque sauvegarde
+  "editor.formatOnPaste": true,        // Formate le code automatiquement quand vous le collez
+
+  // --- Confort Visuel ---
+  "editor.minimap.enabled": false,     // Désactive la mini-carte à droite (gagne de la place)
+  "editor.linkedEditing": true,        // Renomme automatiquement la balise fermante en HTML/JSX
+  "editor.bracketPairColorization.enabled": true, // Colore les paires de parenthèses/crochets
+  "editor.guides.bracketPairs": "active",        // Aligne visuellement les blocs de code
+
+  // --- Nettoyage ---
+  "files.trimTrailingWhitespace": true, // Supprime les espaces inutiles en fin de ligne
+  "files.insertFinalNewline": true,     // Ajoute une ligne vide à la fin du fichier (bonne pratique)
+  "editor.wordWrap": "on"               // Évite le défilement horizontal en coupant les longues lignes
+}
